@@ -104,3 +104,6 @@ def bilinear_sample(inputs, reprojected_grids):
     return r
 ```
 
+## Non-Local
+![image](https://user-images.githubusercontent.com/27406337/146329854-5e1f5d7c-b69d-493e-8f88-60019b0eaae8.png)
+
