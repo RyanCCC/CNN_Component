@@ -1,6 +1,15 @@
 # CNN_Component
 基于Tensorflow2卷积神经网络即插即用模块实现
 
+## TO_LIST
+- [x] STN
+- [x] SE
+- [x] CBAM
+- [x] non_local
+- [x] blur pooling
+- [ ] Deformable Conv
+- [ ] RFB
+
 ## STN
 主要参考：https://xeonqq.github.io/machine%20learning/spatial-transformer-networks/ 。简单的理论部分可以参考我的博客：https://blog.csdn.net/u012655441/article/details/121919291 。STN结构如下图所示：
 ![image](https://user-images.githubusercontent.com/27406337/145952361-5d738cbc-ca73-40ce-bd89-4244b81358d6.png)
