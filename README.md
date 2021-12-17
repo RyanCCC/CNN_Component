@@ -7,8 +7,7 @@
 - [x] CBAM
 - [x] non_local
 - [x] blur pooling
-- [ ] Deformable Conv
-- [ ] RFB
+- [x] Deformable Conv
 
 ## STN
 主要参考：https://xeonqq.github.io/machine%20learning/spatial-transformer-networks/ 。简单的理论部分可以参考我的博客：https://blog.csdn.net/u012655441/article/details/121919291 。STN结构如下图所示：
