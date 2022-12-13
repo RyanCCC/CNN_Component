@@ -1,7 +1,8 @@
-# CNN_Component
-基于Tensorflow2卷积神经网络即插即用模块实现
+# CNNComponent
 
-## TO_LIST
+基于`Tensorflow2.X`实现卷积神经网络即插即用模块。
+
+## 已实现
 - [x] STN
 - [x] SE
 - [x] CBAM
@@ -10,7 +11,7 @@
 - [x] Deformable Conv
 
 ## STN
-主要参考：https://xeonqq.github.io/machine%20learning/spatial-transformer-networks/ 。简单的理论部分可以参考我的博客：https://blog.csdn.net/u012655441/article/details/121919291 。STN结构如下图所示：
+主要参考：[Hands-on: implement a spatial transformer network by yourself](https://xeonqq.github.io/machine%20learning/spatial-transformer-networks/)。简单的理论部分可以参考我的博客：[深度学习 卷积神经网络即插即用的小插件](https://blog.csdn.net/u012655441/article/details/121919291)。STN结构如下图所示：
 ![image](https://user-images.githubusercontent.com/27406337/145952361-5d738cbc-ca73-40ce-bd89-4244b81358d6.png)
 里面包括三个组件：
 - **Localization net**：该网络可以是卷积神经网络或者是全连接神经网络，它们有个特点是最后一层是一个回归层，主要生成6个值表示仿射变换的参数θ。
